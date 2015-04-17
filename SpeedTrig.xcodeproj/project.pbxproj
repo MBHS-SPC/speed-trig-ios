@@ -15,6 +15,7 @@
 		FB6139BA1AE196AD00049E1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6139B81AE196AD00049E1A /* LaunchScreen.xib */; };
 		FB6139C61AE196AD00049E1A /* SpeedTrigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6139C51AE196AD00049E1A /* SpeedTrigTests.swift */; };
 		FB6139D01AE1A74800049E1A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6139CF1AE1A74800049E1A /* MainViewController.swift */; };
+		FB6139D21AE1AF9000049E1A /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6139D11AE1AF9000049E1A /* ResponseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FB6139C41AE196AD00049E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB6139C51AE196AD00049E1A /* SpeedTrigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTrigTests.swift; sourceTree = "<group>"; };
 		FB6139CF1AE1A74800049E1A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FB6139D11AE1AF9000049E1A /* ResponseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				FB6139B11AE196AD00049E1A /* ViewController.swift */,
 				FB6139B31AE196AD00049E1A /* Main.storyboard */,
 				FB6139CF1AE1A74800049E1A /* MainViewController.swift */,
+				FB6139D11AE1AF9000049E1A /* ResponseViewController.swift */,
 				FB6139B61AE196AD00049E1A /* Images.xcassets */,
 				FB6139B81AE196AD00049E1A /* LaunchScreen.xib */,
 				FB6139AE1AE196AD00049E1A /* SpeedTrig.xcdatamodeld */,
@@ -223,6 +226,7 @@
 				FB6139AD1AE196AD00049E1A /* AppDelegate.swift in Sources */,
 				FB6139B01AE196AD00049E1A /* SpeedTrig.xcdatamodeld in Sources */,
 				FB6139D01AE1A74800049E1A /* MainViewController.swift in Sources */,
+				FB6139D21AE1AF9000049E1A /* ResponseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +353,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SpeedTrig/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -362,7 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SpeedTrig/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

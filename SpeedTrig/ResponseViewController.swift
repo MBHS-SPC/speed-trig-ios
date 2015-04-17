@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  ResponseViewController.swift
 //  SpeedTrig
 //
 //  Created by SmartPhoneClub on 4/17/15.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class ResponseViewController: UIViewController {
     
-    var quizType:QuizType = QuizType.REGULAR;
-
+    var mode:QuizType = QuizType.REGULAR;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        println("HI")
+
         // Do any additional setup after loading the view.
     }
 
@@ -23,12 +23,6 @@ class MainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if(segue.identifier=="toGame"){
-            let vc=segue.destinationViewController as ResponseViewController
-            vc.mode = quizType;
-        }
-    }
 
     /*
     // MARK: - Navigation
@@ -40,8 +34,4 @@ class MainViewController: UIViewController {
     }
     */
 
-}
-
-enum QuizType{
-    case REGULAR,INVERSE,CUSTOM
 }
