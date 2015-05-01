@@ -14,6 +14,7 @@ class ResponseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        println("Segue complete")
 
         // Do any additional setup after loading the view.
     }
